@@ -1,26 +1,32 @@
-<html <!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
     </head>
     <body>
-        <div class="head">
-            <h1>Microverse Surver Form</h1>
-            <p><i>Thank you for taking the time to help us improve the platform</i></p>
-        </div>
-
-        <div class="container">
-            
-
-        </div>
-        
-        
-        <script src="" async defer></script>
+      <h1 id="title">SURVEY FORM</h1>
+      <p id="description">This is for data collection purposes only</p>
+      <form id="survey-form">
+        <input id="name" type="text" placeholder="enter your name"required></input>
+        <input id="email" type="email" placeholder="enter your email" required></input>
+        <input id="number" type="number" min="0" max="9" placeholder="digit"></input>
+        <label id="name-label">Name
+          <textarea></textarea>
+        </label>
+        <label id="email-label">email</label>
+        <label id="number-label">number</label>
+        <select id="dropdown">
+          <option id="not-attending" value="not-attending"></option>
+          <option id="attending" value="attending"></option>
+          <input type="radio" value="1" name="group1"></input>
+      <input type="radio" value="1" name="group1"></input>
+          <input type="radio" value="2" name="group2"></input>
+                    <input type="radio" value="2" name="group2"></input>
+          <input type="checkbox" value="1"></input>
+          <input type="checkbox" value="2"></input>
+        </select>
+        <button id="submit" type="submit"></button>
+      </form>
     </body>
-</html>
+      
+<link href="styles.css" rel="stylesheet" type="text/css">
