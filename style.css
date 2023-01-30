@@ -19,9 +19,6 @@ body{
     background-color: rgb(6, 38, 68);
     width: 60%;
     text-align: left;
-    
+    opacity: 0.8;
 }
 
-.form-control, .form-select{
-    width: 80%;
-}
